@@ -107,6 +107,7 @@ textarea {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: left;
+    color: #e2e3ed;
   }
 
   ul, 
@@ -122,6 +123,7 @@ textarea {
   h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
+    font-weight: 500;
   }
 
   h3, 
@@ -129,6 +131,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
     margin: 20px 0;
+    font-weight: 500;
   }
 
   p {
@@ -154,17 +157,10 @@ textarea {
   }
 
 
-
-
-
-
-
-
-
-
    /* ----------------- Base Header - Footer Styles ------------------------- */
 
    header, footer {
+    background-color: #202322;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +168,7 @@ textarea {
    }
 
    header {
-    padding: 15px o;
+    padding: 15px 0;
    }
 
    header .content-wrapper {
@@ -183,12 +179,22 @@ textarea {
     margin: 0;
    }
 
+  .header-divider {
+    background: #3a3a3a; 
+    height: 1px;
+    width: 100%;
+    margin: 10px 0 20px 0;
+   }
+
    header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
     width: 60%;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.125em;
    }
 
    header nav ul {
@@ -198,8 +204,13 @@ textarea {
 
    }
 
+   header nav ul li {
+    font-size: 1.125em;
+  }
+
    footer {
     flex-direction: column;
+    text-align: center;
    }
 
    footer .content-wrapper {
@@ -241,13 +252,44 @@ textarea {
     flex-flow: row wrap;
    }
 
+  .hero-area h1 {
+    font-size: 2.25em;
+   }
+
    /*Aside*/
 
    aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+   }
+
+
+  aside .form {
+    margin-top: 30px;
+   }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+   }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
    }
 
    /*Features*/
@@ -276,11 +318,13 @@ textarea {
 
    .features p {
     margin: 0;
+    text-align: center;
    }
 
    /*Reviews*/
 
    .reviews {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -288,6 +332,7 @@ textarea {
 
    .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1;
    }
 
    .reviews h3 {
@@ -301,6 +346,7 @@ textarea {
    ========================================================================== */
 
    .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,6 +354,7 @@ textarea {
    }
 
    .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,6 +371,7 @@ textarea {
    ========================================================================== */
 
    .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -331,6 +379,7 @@ textarea {
    }
 
    .faq .content-wrapper {
+    margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,10 +388,16 @@ textarea {
 
   .faq h2 {
     margin-bottom: 40px;
+    line-height: 1;
   }
 
   .faq-content {
     margin-bottom: 50px;
+  }
+
+  .faq-content h4 {
+    line-height: 1.333;
+    font-weight: 700;
   }
 
  /* ==========================================================================
