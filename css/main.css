@@ -684,6 +684,10 @@ textarea {
               font-size: 1.5em;
           }
 
+          .map figure {
+              padding-bottom: 45.5%;
+          }
+
 
 
 
@@ -783,6 +787,10 @@ textarea {
  
           .contact-content h4 {
             font-size: 1.875em;
+          }
+
+          .map figure {
+              padding-bottom: 37.5%;
           }
 
  
